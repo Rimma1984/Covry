@@ -92,10 +92,16 @@ color: white;
 }
 .podloshca {
     overflow: hidden;
-    display: block;
-    position: absolute;
+    /* display: block; */
+    position: relative;
+    background-image: url(/img/подложка 1.png) center
+    no-repeat;
+    background-size: cover;
     
 }
-.podloshca img {
-    width: ;
+.img_big {
+    overflow: hidden;
+    position: relative;
+    top: 30px;
+    left: 120px;
 }
