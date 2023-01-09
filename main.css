@@ -86,22 +86,32 @@ color: white;
     height: 120px;
 }
 /* END Bloc3 */
-.buutam, .podloshca {
+.slogon, .podloshca {
     width: 50%;
     float: left;
 }
-.podloshca {
+.podloshca img {
     overflow: hidden;
-    /* display: block; */
+    display: block;
     position: relative;
-    background-image: url(/img/подложка 1.png) center
-    no-repeat;
+    /* background-image: url(/img/подложка1.png) center
+    no-repeat; */
     background-size: cover;
-    
+    margin-top: 30px;
+    margin-left: 30px;
 }
-.img_big {
+/* .img_big {
     overflow: hidden;
     position: relative;
     top: 30px;
     left: 120px;
+} */
+.slogon h1 {
+font-size: 50px;
+color: black;
+font-weight: 700;
+margin-top: 200px;
+}
+.buutam {
+
 }
